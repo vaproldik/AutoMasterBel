@@ -1,41 +1,6 @@
 @import url("./normalize.css");
 @import url("./fonts.css");
 
-/* RESET */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background: #ffffff;
-  color: #111111;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-address {
-  font-style: normal;
-}
 
 /* КОНТЕЙНЕР */
 .container {
@@ -141,7 +106,7 @@ address {
   transition: all 0.3s;
 }
 
-/* BREADCRUMB */
+/* КРОШКИ */
 .breadcrumb {
   margin-top: 68px;
   background: #f8f8f8;
